@@ -1,6 +1,6 @@
 function gotoDrive() {
   alert(
-    "Atención!\nEste enlace es solo para correción docente. Este es un proyecto que no está listo para ser usado. Estamos en una fase primeriza. Accede solo si eres Fatima Ferreiro Galguera ",
+    "Atención!\nEste enlace es solo para correción docente. Este es un proyecto que no está listo para ser usado. Estamos en una fase primeriza. Accede solo si eres Fatima Ferreiro Galguera\n\nÚtlima actualización: 12/01/2026",
   );
   window.open(
     "https://drive.google.com/drive/folders/10kkHRvMtsmFDpqN9nXcGvmVfOZagMaoB?usp=sharing",
