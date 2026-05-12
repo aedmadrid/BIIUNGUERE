@@ -21,17 +21,28 @@
 }
 body {
     height: calc(100vh - var(--TopPX));
-    background-image: url("back.jpg");
     margin: 0;
     padding: 0;
+
     background-size: cover;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     margin-top: var(--TopPX);
-    color: white;
+    background-color: #fec61b;
 }
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    background-color:;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: none;
+}
+
 #cursor {
     background-image: url("cursor.png");
     position: fixed;
@@ -60,9 +71,7 @@ body {
 }
 
 p {
-    background-color: black;
 }
 h1 {
-    background-color: #fec61b;
     color: black;
 }

@@ -4,7 +4,7 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="icon" type="image/png" href="cursor.png" />
-        <title>Biunguere</title>
+        <title>BIIUNGUERE</title>
         <link rel="stylesheet" href="style.css" />
     </head>
     <span id="topBar" onclick="window.open('https://aedm.org.es/', '_blank')">
@@ -13,16 +13,27 @@
     </span>
     <body>
         <h1>BIIUNGUERE</h1>
-        <p>Ready Made/Open Source Furniture</p>
+        <p>Estamos construyendo una solución de muebles de código abierto.</p>
         <br />
-        <img
-            src="veg.png"
-            alt="Ver en GH"
-            width="180px"
-            height="auto"
-            style="border-radius: 20px"
-            onclick="gotoDrive()"
-        />
+        <div style="display: flex; justify-content: center">
+            <button
+                onclick="
+                    window.open(
+                        'https://github.com/aedmadrid/BIIUNGUERE',
+                        '_blank',
+                    )
+                "
+            >
+                GitHub
+            </button>
+            <button
+                onclick="
+                    window.open('https://biiunguere.substack.com', '_blank')
+                "
+            >
+                Newsletter
+            </button>
+        </div>
     </body>
     <span id="cursor"></span>
     <script src="cursor.js"></script>
